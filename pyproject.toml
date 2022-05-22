@@ -7,7 +7,9 @@ build-backend = "setuptools.build_meta"
 version_scheme = "no-guess-dev"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 PyGithub = "1.53"
 Django = "1.2.2"
 djangorestframework = "==3.11.1"
+urllib3 = "1.19"
+bleach = "1.0.1"
